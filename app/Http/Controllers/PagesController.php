@@ -15,4 +15,9 @@ class PagesController extends Controller
     {
         return view('layout.app');
     }
+
+    public function home()
+    {
+        return view('home');
+    }
 }
